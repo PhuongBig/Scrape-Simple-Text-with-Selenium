@@ -1,4 +1,5 @@
 from selenium import webdriver
+#Set options to make browsing easier
 def get_driver():
   options = webdriver.ChromeOptions()
   options.add_argument("disable-infobard")
